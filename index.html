@@ -46,10 +46,10 @@
   .hero-sub { font-size:1rem; color:var(--muted); font-weight:400; margin-bottom:1.5rem; }
   .hero-desc { font-size:.9rem; line-height:1.8; color:var(--muted); max-width:520px; margin-bottom:2.5rem; }
   .hero-btns { display:flex; gap:.8rem; flex-wrap:wrap; }
-  .btn-primary { padding:.75rem 1.8rem; background:var(--accent); color:#fff; text-decoration:none; font-size:.82rem; font-weight:600; border-radius:6px; transition:all .2s; }
-  .btn-primary:hover { background:#1d4ed8; }
-  .btn-secondary { padding:.75rem 1.8rem; background:transparent; color:var(--text); text-decoration:none; font-size:.82rem; font-weight:600; border:1px solid var(--border); border-radius:6px; transition:all .2s; }
-  .btn-secondary:hover { border-color:var(--text); }
+  .btn-primary { padding:.75rem 2rem; background:var(--accent); color:#fff; text-decoration:none; font-size:.82rem; font-weight:600; border-radius:999px; transition:all .2s; }
+  .btn-primary:hover { background:#1d4ed8; transform:translateY(-2px); box-shadow:0 8px 20px rgba(37,99,235,.3); }
+  .btn-secondary { padding:.75rem 2rem; background:transparent; color:var(--text); text-decoration:none; font-size:.82rem; font-weight:600; border:1.5px solid var(--border); border-radius:999px; transition:all .2s; }
+  .btn-secondary:hover { border-color:var(--text); background:var(--light); transform:translateY(-2px); }
   .hero-right { margin-left:auto; display:flex; flex-direction:column; gap:1.5rem; padding-right:2rem; }
   .stat-item { text-align:right; }
   .stat-num { font-size:2rem; font-weight:700; color:var(--text); line-height:1; }
@@ -199,8 +199,8 @@ section{
   <div class="hero-content">
     <h1 class="hero-name">Aydan<br><span>Əhmədova</span></h1>
     <p class="hero-sub" data-az="Junior Data Analyst | Power BI, Python, SQL & Excel" data-en="Junior Data Analyst | Power BI, Python, SQL & Excel">Junior Data Analyst | Power BI, Python, SQL & Excel</p>
-    <p class="hero-desc" data-az="Verilənləri təhlil edərək biznes performansını ölçür, tendensiyaları müəyyən edir və qərarverməni dəstəkləyən insightlar təqdim edirəm. Power BI, Python, SQL və Excel vasitəsilə məlumatları təhlil edir, vizuallaşdırır və qərarverməni dəstəkləyən dəyərli insightlar təqdim edirəm." data-en="I turn complex data into clear and actionable business insights. I create value from data using Python, SQL, Power BI and Excel to support strategic decision-making.">
-      Verilənləri təhlil edərək biznes performansını ölçür, tendensiyaları müəyyən edir və qərarverməni dəstəkləyən insightlar təqdim edirəm. Power BI, Python, SQL və Excel vasitəsilə məlumatları təhlil edir, vizuallaşdırır və qərarverməni dəstəkləyən dəyərli insightlar təqdim edirəm.
+    <p class="hero-desc" data-az="Power BI, SQL, Python və Excel vasitəsilə mürəkkəb məlumatları təhlil edir, biznes performansını ölçən və məlumat əsaslı qərarverməni dəstəkləyən interaktiv hesabatlar hazırlayıram." data-en="I analyse complex data using Power BI, SQL, Python and Excel — building interactive reports that measure business performance and support data-driven decision making.">
+      Power BI, SQL, Python və Excel vasitəsilə mürəkkəb məlumatları təhlil edir, biznes performansını ölçən və məlumat əsaslı qərarverməni dəstəkləyən interaktiv hesabatlar hazırlayıram.
     </p>
     <div class="hero-btns">
       <a href="#projects" class="btn-primary" data-az="Layihələrə Bax" data-en="View Projects">Layihələrə Bax</a>
@@ -355,7 +355,7 @@ section{
 
     <div class="project-card">
       <div class="project-type">Power BI · DAX · Dashboard</div>
-      <div class="project-name" data-az="Çoxsəhifəli Power BI Dashboard" data-en="Multi-Page Power BI Dashboard">Çoxsəhifəli Power BI Dashboard</div>
+      <div class="project-name" data-az="Proses İdarəetmə Power BI Dashboard" data-en="Process Management Power BI Dashboard">Proses İdarəetmə Power BI Dashboard</div>
       <div class="project-desc" data-az="Action button naviqasiyası ilə çoxsəhifəli interaktiv dashboard. Semantik data modeli üzərində qurulub. Nəticə: 4 əsas KPI üzrə real-vaxt izləmə imkanı yaradıldı." data-en="Multi-page interactive dashboard with action button navigation. Built on semantic data model. Result: real-time tracking enabled for 4 key KPIs.">
         Action button naviqasiyası ilə çoxsəhifəli interaktiv dashboard. Semantik data modeli üzərində qurulub. Nəticə: 4 əsas KPI üzrə real-vaxt izləmə imkanı yaradıldı.
       </div>
@@ -402,7 +402,8 @@ section{
           <span class="skill-tag" data-az="May 2026" data-en="May 2026">May 2026</span>
           <span class="skill-tag" data-az="5 il etibarlı" data-en="Valid 5 years">5 il etibarlı</span>
         </div>
-        <a href="https://verify.certiport.com" target="_blank" style="font-size:.72rem;color:var(--accent);text-decoration:none;font-weight:600;border:1px solid var(--accent);padding:.25rem .65rem;border-radius:4px;white-space:nowrap;" data-az="Yoxla: 4n8W-Xaqr" data-en="Verify: 4n8W-Xaqr">Yoxla: 4n8W-Xaqr</a>
+  
+      <a href="https://verify.certiport.com" target="_blank" style="font-size:.72rem;color:var(--accent);text-decoration:none;font-weight:600;border:1px solid var(--accent);padding:.25rem .65rem;border-radius:4px;white-space:nowrap;" data-az="Yoxla: 4n8W-Xaqr" data-en="Verify: 4n8W-Xaqr">Yoxla: 4n8W-Xaqr</a>
       </div>
     </div>
 
@@ -437,11 +438,8 @@ section{
   </div>
   <div class="reveal">
     <div class="about-box about-text">
-      <p data-az="Apex Business School-un Data Analitika proqramını təqaüdlə və yüksək nəticə ilə bitirmişəm. Təhsil müddətində Python, SQL, Power BI və Excel tətbiq edərək real keyslər üzərində müxtəlif layihələr hazırlamışam." data-en="I completed the Data Analytics program at Apex Business School on a scholarship with high academic results. Throughout my studies, I prepared various projects on real cases using Python, SQL, Power BI and Excel.">
-        Apex Business School-un Data Analitika proqramını təqaüdlə və yüksək nəticə ilə bitirmişəm. Təhsil müddətində Python, SQL, Power BI və Excel tətbiq edərək real keyslər üzərində müxtəlif layihələr hazırlamışam.
-      </p>
-      <p data-az="Böyük məlumat bazaları ilə işləmək, datanı təmizləmək və vizual hesabatlar (dashboard) qurmaq əsas maraq sahəmdir. Hazırda öyrəndiklərimi real layihələrdə tətbiq etmək, data yönümlü komandanın bir parçası olmaq və davamlı inkişaf etmək üçün yeni çağırışlar axtarıram." data-en="Working with large databases, cleaning data and building visual reports (dashboards) are my main areas of interest. I am currently looking for new challenges to apply what I have learned in real projects, become part of a data-driven team and continue growing.">
-        Böyük məlumat bazaları ilə işləmək, datanı təmizləmək və vizual hesabatlar (dashboard) qurmaq əsas maraq sahəmdir. Hazırda öyrəndiklərimi real layihələrdə tətbiq etmək, data yönümlü komandanın bir parçası olmaq və davamlı inkişaf etmək üçün yeni çağırışlar axtarıram.
+      <p data-az="Excel, SQL, Python və Power BI ilə real datasetlər üzərində dashboardlar, analitik hesabatlar və proqnoz modelləri hazırlamışam. Riyaziyyat və Kompüter Elmləri üzrə təhsilim analitik düşüncə və məlumat əsaslı yanaşma bacarıqlarımı gücləndirib. Məlumatlardan dəyərli insightlar əldə etmək və onları effektiv vizuallarla təqdim etmək əsas maraq sahəmdir." data-en="I have built dashboards, analytical reports and forecasting models on real datasets using Excel, SQL, Python and Power BI. My background in Mathematics and Computer Science has strengthened my analytical thinking and data-driven approach. Extracting valuable insights from data and presenting them through effective visuals is what drives me most.">
+        Excel, SQL, Python və Power BI ilə real datasetlər üzərində dashboardlar, analitik hesabatlar və proqnoz modelləri hazırlamışam. Riyaziyyat və Kompüter Elmləri üzrə təhsilim analitik düşüncə və məlumat əsaslı yanaşma bacarıqlarımı gücləndirib. Məlumatlardan dəyərli insightlar əldə etmək və onları effektiv vizuallarla təqdim etmək əsas maraq sahəmdir.
       </p>
     </div>
   </div>
